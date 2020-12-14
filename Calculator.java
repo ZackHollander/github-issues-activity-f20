@@ -71,11 +71,7 @@ public class Calculator {
 	 *            the length of the other side.
 	 * @return the length of the hypotenuse of a right triangle with sides x and y.
 	 */
-<<<<<<< HEAD
-	public static double hypotenuse(double x, double y) {
-=======
 	public static double hypot(double x, double y) {
->>>>>>> master
 		return Math.sqrt(x*x + y*y);
 	}
 
@@ -147,6 +143,17 @@ public class Calculator {
 	 */
 	public double sphVol(double r) {
 		return (4.0/3.0) * Math.PI * Math.pow(r,3);
+	}
+	
+	/**
+	 * The perimeter of a triangle with a given side.
+	 *
+	 * @param s
+	 *	      the side length
+	 * @return the perimeter of the triangle.  
+	 */
+	public static double pertri(double s) {
+		return s + s + s;
 	}
 }
 //eof
